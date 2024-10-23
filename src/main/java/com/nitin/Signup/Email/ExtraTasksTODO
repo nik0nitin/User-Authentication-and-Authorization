@@ -1,0 +1,26 @@
+19-10-24:
+    Look for Spring Data JPA -> JpaRepository section in Madan Reddy's course.
+    Learn more of Optional.
+    Read about Method Reference, introduced in Java 8. (DONE)
+
+20-10-24
+    Read more about Filter(Spring Security in Action), know the Hierarchy of Filters.
+21-10-24
+    Learn more about JavaMailAPI, how things work beneath it? How it talks to the SMTP server? Google provides its SMTP Server?
+    What is MimeMail vs Simple Mail? (DONE)
+22-10-24
+    Can't Understand AuthenticationManager & Authentication. Read it in Spring Security in Action
+
+<--Completed at 23-10-2024 T 02:08 -->
+
+
+Further Implementations
+    -Refresh Token
+    -Login Rate Limit (to prevent Brute Force)
+    -OAuth 2
+    -Role Based Authorization
+    -Signup form Validation: Valid Email Verification before sending
+
+Precaution
+    -Remove email & app password credentials from application.properties
+

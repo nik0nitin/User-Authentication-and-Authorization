@@ -1,0 +1,12 @@
+Be specific about JWT Token Subject -> Email/Username (Subject will be whatever you choose)
+
+If our User Entity contains both, email & username, we makes changes to getUsername method if we want to use email or username.
+
+When User Class implements UserDetails always overwrite getPassword(), getUsername() methods. By default they return null.
+
+Hence Bcrypt Password will return empty password error in Database because we use UserDetailsService to retrieve
+UserDetails(User) and further user GetPassword(), getUsername() methods to validate.
+
+Login -> username & password == UserDetailsService -> UserDetails(userDetails.getUsername() & userDetails.getPassword)
+
+Debugging Solves problems.
